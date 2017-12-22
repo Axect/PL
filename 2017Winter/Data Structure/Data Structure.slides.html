@@ -11916,18 +11916,6 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Kinds-of-Data-Structures">Kinds of Data Structures<a class="anchor-link" href="#Kinds-of-Data-Structures">&#182;</a></h2><ul>
-<li>Object-Oriented Structure</li>
-<li>Functional Structure</li>
-</ul>
-
-</div>
-</div>
-</div></section></section><section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="What-is-Data-Structure?">What is Data Structure?<a class="anchor-link" href="#What-is-Data-Structure?">&#182;</a></h2><p>컴퓨터의 메모리는 1차원 구조이기 때문에 현실 세계의 다차원데이터를 다루기 위해서는 이것을 1차원인 선 형태로 바꾸는 것이 필요하다. 대학교 1학년 과정에서 배우는 기초 알고리즘들은 바로 이 방법을 학습한다. 2차원 배열, 이진 트리, 그래프 등의 자료구조가 2차원 데이터를 1차원으로 욱여넣는 방법을 배우는 것이다. 더 나아가 3차원 데이터를 다루고, 더 지나면 3차원 데이터 이상의 다차원 데이터를 처리하는 자료구조를 만날 수 있다. 물론 B트리나 R트리의 경우처럼 같은 2차원 데이터도 어떻게 조직화하느냐에 따라 자료구조가 달라진다. [출처: 나무위키]</p>
 
 </div>
@@ -11938,37 +11926,20 @@ a.anchor-link {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Example:-Python">Example: Python<a class="anchor-link" href="#Example:-Python">&#182;</a></h3><ol>
-<li>List (But, it's Array)<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<li><p>List (But, it's Array)</p>
+<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
  <span class="k">print</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
  <span class="n">Y</span> <span class="o">=</span> <span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">X</span><span class="p">]</span> <span class="c1"># List comprehension</span>
  <span class="k">print</span><span class="p">(</span><span class="n">Y</span><span class="p">)</span>
 </pre></div>
 </li>
-</ol>
-
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Tuple<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;hi&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">3.1</span><span class="p">)</span>
+<li><p>Tuple</p>
+<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">(</span><span class="s2">&quot;hi&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">3.1</span><span class="p">)</span>
  <span class="k">print</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
 </pre></div>
 </li>
-</ol>
-
-</div>
-</div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ol>
-<li>Dict<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;hi&quot;</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">}</span>
+<li><p>Dict</p>
+<div class="highlight"><pre><span></span><span class="n">X</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;hi&quot;</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">}</span>
  <span class="k">print</span><span class="p">(</span><span class="n">X</span><span class="p">[</span><span class="s2">&quot;hi&quot;</span><span class="p">])</span>
 </pre></div>
 </li>
@@ -11976,7 +11947,7 @@ a.anchor-link {
 
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -11993,6 +11964,7 @@ a.anchor-link {
  <span class="k">def</span> <span class="n">addOne</span><span class="o">[</span><span class="kt">A</span><span class="o">](</span><span class="n">xs</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">])</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">]</span> <span class="k">=</span> <span class="n">xs</span> <span class="k">match</span> <span class="o">{</span>
      <span class="k">case</span> <span class="nc">Nil</span> <span class="k">=&gt;</span> <span class="nc">Nil</span>
      <span class="k">case</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">,</span> <span class="n">t</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">+</span><span class="mi">1</span><span class="o">,</span> <span class="n">addOne</span><span class="o">(</span><span class="n">t</span><span class="o">))</span>
+ <span class="o">}</span>
  <span class="n">println</span><span class="o">(</span><span class="n">addOne</span><span class="o">(</span><span class="n">x</span><span class="o">))</span>
 </pre></div>
 </li>
@@ -12005,7 +11977,499 @@ a.anchor-link {
 
 </div>
 </div>
-</div></section></section>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Kind-of-Data-Structure">Kind of Data Structure<a class="anchor-link" href="#Kind-of-Data-Structure">&#182;</a></h2><ul>
+<li>Basic Data Structure (ex) Python: List, Map, Tuple -&gt; Skip)</li>
+<li>Object-Oriented Data Structure</li>
+<li>Functional Data Structure</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Object-Oriented-Structure">Object-Oriented Structure<a class="anchor-link" href="#Object-Oriented-Structure">&#182;</a></h2><ul>
+<li>Array</li>
+<li>Class (OOP like)</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Array">Array<a class="anchor-link" href="#Array">&#182;</a></h3><p>컴퓨터 과학에서 배열(영어: array, 配列·排列, 문화어: 배렬)은 번호(인덱스)와 번호에 대응하는 데이터들로 이루어진 자료 구조를 나타낸다. 일반적으로 배열에는 같은 종류의 데이터들이 순차적으로 저장되어, 값의 번호가 곧 배열의 시작점으로부터 값이 저장되어 있는 상대적인 위치가 된다. 대부분의 프로그래밍 언어에서 사용할 수 있는 가장 기초적인 자료 구조로, 기본적인 용도 외에 다른 복잡한 자료 구조들을 표현하기 위해서 또는 행렬, 벡터 등을 컴퓨터에서 표현하는 용도 등으로도 사용된다. [출처: 위키피디아]</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="array.jpg" width=100%></img></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Array-Summary">Array Summary<a class="anchor-link" href="#Array-Summary">&#182;</a></h3><ul>
+<li>배열은 고정된 크기! 크기를 한 번 지정하면 변경할 수 없음. (Python: ...?, Julia: ...?, MATLAB: ...?, R: ...?)</li>
+<li>한 번 지정하면 변경이 불가 -&gt; C 계열 언어에선 포인터로 이를 해결하지만 Python이나 Julia등은 필연적으로 메모리의 위치가 바뀜.</li>
+<li>배열은 index를 포함하기에 변수접근 속도가 매우 빠름. ($\mathcal{O}(1)$)</li>
+<li>하지만 추가나 값 변경을 할 시에 필연적으로 메모리의 변경이 일어나게 되고 속도 손실이 생김. // 동적언어는 메모리를 확장!</li>
+<li>정적언어에서는 포인터로 접근하지만 동적언어에선 오류의 확인이 불가</li>
+<li>자료구조의 가장 기본적인 꼴이므로 기본 처리속도 자체는 매우 빠른 편</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Python">Example: Python<a class="anchor-link" href="#Example:-Python">&#182;</a></h3><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">idCheck</span><span class="p">(</span><span class="n">xs</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">[</span><span class="nb">id</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">xs</span><span class="p">]</span>
+
+<span class="n">A</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<span class="n">ID1</span> <span class="o">=</span> <span class="n">idCheck</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="n">A</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">ID2</span> <span class="o">=</span> <span class="n">idCheck</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+<span class="n">A</span> <span class="o">+=</span> <span class="p">[</span><span class="mi">6</span><span class="p">,]</span>
+<span class="n">ID3</span> <span class="o">=</span> <span class="n">idCheck</span><span class="p">(</span><span class="n">A</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Class">Class<a class="anchor-link" href="#Class">&#182;</a></h3><ul>
+<li>객체지향의 꽃</li>
+</ul>
+<p>클래스(class)는 객체 지향 프로그래밍(OOP)에서 특정 객체를 생성하기 위해 변수와 메소드를 정의하는 일종의 틀이다. 객체를 정의 하기 위한 상태(멤버변수)와 메서드(함수)로 구성된다.<br>
+템플릿을 사용하면 객체를 클래스로 정의할 때 멤버의 자료형을 미리 정하지 않고 객체를 사용할 때 결정할 수 있다. 이를 통해 클래스나 멤버의 중복 정의를 하지 않아도 되므로 효율적으로 코딩이 가능하다. [출처: 나무위키]</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Go">Example: Go<a class="anchor-link" href="#Example:-Go">&#182;</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nx">math</span>
+
+<span class="kd">type</span> <span class="nx">Circle</span> <span class="kd">struct</span> <span class="p">{</span>
+    <span class="nx">radius</span>  <span class="kt">float64</span>
+<span class="p">}</span>
+
+<span class="kd">func</span> <span class="p">(</span><span class="nx">C</span> <span class="nx">Circle</span><span class="p">)</span> <span class="nx">Area</span><span class="p">()</span> <span class="p">{</span>
+    <span class="nx">R</span> <span class="p">=</span> <span class="nx">C</span><span class="p">.</span><span class="nx">radius</span>
+    <span class="k">return</span> <span class="nx">math</span><span class="p">.</span><span class="nx">Pi</span> <span class="o">*</span> <span class="nx">math</span><span class="p">.</span><span class="nx">Pow</span><span class="p">(</span><span class="nx">R</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="p">}</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Julia">Example: Julia<a class="anchor-link" href="#Example:-Julia">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">mutable</span> <span class="n">struct</span> <span class="n">Circle</span>
+    <span class="n">radius</span> <span class="o">::</span> <span class="kt">Float64</span>
+<span class="k">end</span>
+
+<span class="k">function</span> <span class="n">calcArea</span><span class="p">(</span><span class="n">C</span><span class="o">::</span><span class="n">Circle</span><span class="p">)</span><span class="o">::</span><span class="kt">Float64</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="n">C</span><span class="o">.</span><span class="n">radius</span>
+    <span class="k">return</span> <span class="nb">pi</span> <span class="o">*</span> <span class="n">r</span><span class="o">^</span><span class="mi">2</span>
+<span class="k">end</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Scala">Example: Scala<a class="anchor-link" href="#Example:-Scala">&#182;</a></h3><div class="highlight"><pre><span></span><span class="k">import</span> <span class="nn">math</span>
+
+<span class="k">class</span> <span class="nc">Circle</span><span class="o">(</span><span class="n">r</span><span class="k">:</span> <span class="kt">double</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">var</span> <span class="n">radius</span><span class="k">:</span> <span class="kt">double</span> <span class="o">=</span> <span class="n">r</span>
+    <span class="k">def</span> <span class="n">calcArea</span><span class="k">:</span> <span class="kt">double</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">math</span><span class="o">.</span><span class="n">square</span><span class="o">(</span><span class="n">radius</span><span class="o">)</span>
+<span class="o">}</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Python">Example: Python<a class="anchor-link" href="#Example:-Python">&#182;</a></h3><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">math</span>
+
+<span class="k">class</span> <span class="nc">Circle</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rad</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">=</span> <span class="n">rad</span>
+
+    <span class="k">def</span> <span class="nf">area</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">radius</span> <span class="o">**</span> <span class="mi">2</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Class-&#49324;&#50857;&#48277;">Class &#49324;&#50857;&#48277;<a class="anchor-link" href="#Class-&#49324;&#50857;&#48277;">&#182;</a></h3><ul>
+<li>Struct &amp; Method 꼴의 경우 구조체에 데이터들을 초기화하고 그것을 바꿔가면서 사용</li>
+<li>Class의 경우도 비슷하나 Class 자체에 데이터와 메소드가 모두 있다는 것이 다름.</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Julia">Example: Julia<a class="anchor-link" href="#Example:-Julia">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">mutable</span> <span class="n">struct</span> <span class="n">Container</span>
+    <span class="n">x</span> <span class="o">::</span> <span class="kt">Float64</span>
+    <span class="n">y</span> <span class="o">::</span> <span class="kt">Float64</span>
+<span class="k">end</span>
+
+<span class="k">function</span> <span class="n">calculator</span><span class="p">(</span><span class="n">C</span><span class="o">::</span><span class="n">Container</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">y</span> <span class="o">+=</span> <span class="mi">2</span>
+<span class="k">end</span>
+
+<span class="k">function</span> <span class="n">main</span><span class="p">()</span>
+    <span class="n">X</span> <span class="o">=</span> <span class="n">Container</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.0</span><span class="p">)</span>
+    <span class="n">calculator</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+    <span class="n">println</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
+<span class="k">end</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Python">Example: Python<a class="anchor-link" href="#Example:-Python">&#182;</a></h3><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Container</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y</span> <span class="o">=</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">calculator</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">x</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="bp">self</span><span class="o">.</span> <span class="n">y</span> <span class="o">+=</span> <span class="mi">2</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="n">C</span> <span class="o">=</span> <span class="n">Container</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">C</span><span class="o">.</span><span class="n">calculator</span><span class="p">()</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">C</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="n">C</span><span class="o">.</span><span class="n">y</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Example:-Python">Example: Python<a class="anchor-link" href="#Example:-Python">&#182;</a></h3><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Derivative</span><span class="p">:</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">f</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">f</span> <span class="o">=</span> <span class="n">f</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">h</span> <span class="o">=</span> <span class="mf">1e-06</span>
+
+    <span class="k">def</span> <span class="nf">differentiate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="o">+</span><span class="bp">self</span><span class="o">.</span><span class="n">h</span><span class="p">)</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">))</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">h</span>
+
+    <span class="k">def</span> <span class="fm">__call__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">differentiate</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Functional-Data-Structure">Functional Data Structure<a class="anchor-link" href="#Functional-Data-Structure">&#182;</a></h2><ul>
+<li>(Linked) List</li>
+<li>Tree</li>
+<li>Stream</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="List">List<a class="anchor-link" href="#List">&#182;</a></h3><p>연결 리스트, 링크드 리스트(linked list)는 각 노드가 데이터와 포인터를 가지고 한 줄로 연결되어 있는 방식으로 데이터를 저장하는 자료 구조이다. 이름에서 말하듯이 데이터를 담고 있는 노드들이 연결되어 있는데, 노드의 포인터가 다음이나 이전의 노드와의 연결을 담당하게 된다.<br>
+연결 리스트는 늘어선 노드의 중간지점에서도 자료의 추가와 삭제가 O(1)의 시간에 가능하다는 장점을 갖는다. 그러나 배열이나 트리 구조와는 달리 특정 위치의 데이터를 검색해 내는데에는 O(n)의 시간이 걸리는 단점도 갖고 있다. [출처: 위키피디아]</p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="list.gif" width=100%></img></p>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Trait</span>
+<span class="k">sealed</span> <span class="k">trait</span> <span class="nc">List</span><span class="o">[</span><span class="kt">+A</span><span class="o">]</span>
+<span class="nc">case</span> <span class="k">object</span> <span class="nc">Nil</span> <span class="k">extends</span> <span class="nc">List</span><span class="o">[</span><span class="kt">Nothing</span><span class="o">]</span>
+<span class="k">case</span> <span class="k">class</span> <span class="nc">Cons</span><span class="o">[</span><span class="kt">+A</span><span class="o">](</span><span class="n">head</span><span class="k">:</span><span class="kt">A</span><span class="o">,</span> <span class="n">tail</span><span class="k">:</span><span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">])</span> <span class="k">extends</span> <span class="nc">List</span><span class="o">[</span><span class="kt">A</span><span class="o">]</span>
+
+<span class="k">object</span> <span class="nc">List</span> <span class="o">{</span>
+    <span class="k">def</span> <span class="n">apply</span><span class="o">[</span><span class="kt">A</span><span class="o">](</span><span class="n">as</span><span class="k">:</span> <span class="kt">A*</span><span class="o">)</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">]</span> <span class="k">=</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">as</span><span class="o">.</span><span class="n">isEmpty</span><span class="o">)</span> <span class="nc">Nil</span>
+        <span class="k">else</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">as</span><span class="o">.</span><span class="n">head</span><span class="o">,</span> <span class="n">apply</span><span class="o">(</span><span class="n">as</span><span class="o">.</span><span class="n">tail</span><span class="k">:_</span><span class="kt">*</span><span class="o">))</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[1]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>defined <span class="ansi-green-fg">trait</span> <span class="ansi-cyan-fg">List</span>
+defined <span class="ansi-green-fg">object</span> <span class="ansi-cyan-fg">Nil</span>
+defined <span class="ansi-green-fg">class</span> <span class="ansi-cyan-fg">Cons</span>
+defined <span class="ansi-green-fg">object</span> <span class="ansi-cyan-fg">List</span></pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Print</span>
+<span class="k">val</span> <span class="n">A</span>  <span class="k">=</span> <span class="nc">List</span><span class="o">(</span><span class="mi">1</span><span class="o">,</span><span class="mi">2</span><span class="o">,</span><span class="mi">3</span><span class="o">,</span><span class="mi">4</span><span class="o">,</span><span class="mi">5</span><span class="o">)</span>
+<span class="n">println</span><span class="o">(</span><span class="n">A</span><span class="o">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cons(1,Cons(2,Cons(3,Cons(4,Cons(5,Nil)))))
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[2]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre><span class="ansi-cyan-fg">A</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = Cons(1,Cons(2,Cons(3,Cons(4,Cons(5,Nil)))))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Pattern Matching</span>
+<span class="k">def</span> <span class="n">addOne</span><span class="o">(</span><span class="n">as</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">Int</span><span class="o">])</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">Int</span><span class="o">]</span> <span class="k">=</span> <span class="n">as</span> <span class="k">match</span> <span class="o">{</span>
+    <span class="k">case</span> <span class="nc">Nil</span> <span class="k">=&gt;</span> <span class="nc">Nil</span>
+    <span class="k">case</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">,</span> <span class="n">t</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">+</span><span class="mi">1</span><span class="o">,</span> <span class="n">addOne</span><span class="o">(</span><span class="n">t</span><span class="o">))</span>
+<span class="o">}</span>
+<span class="n">println</span><span class="o">(</span><span class="n">addOne</span><span class="o">(</span><span class="n">A</span><span class="o">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cons(2,Cons(3,Cons(4,Cons(5,Cons(6,Nil)))))
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[3]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">addOne</span></pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-scala"><pre><span></span><span class="c1">// Append is so Easy!</span>
+<span class="k">def</span> <span class="n">append</span><span class="o">[</span><span class="kt">A</span><span class="o">](</span><span class="n">as</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">],</span> <span class="n">bs</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">])</span><span class="k">:</span> <span class="kt">List</span><span class="o">[</span><span class="kt">A</span><span class="o">]</span> <span class="k">=</span> <span class="n">as</span> <span class="k">match</span> <span class="o">{</span> <span class="c1">// Do not consider bs!</span>
+    <span class="k">case</span> <span class="nc">Nil</span> <span class="k">=&gt;</span> <span class="n">bs</span>
+    <span class="k">case</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">,</span><span class="n">t</span><span class="o">)</span> <span class="k">=&gt;</span> <span class="nc">Cons</span><span class="o">(</span><span class="n">h</span><span class="o">,</span> <span class="n">append</span><span class="o">(</span><span class="n">t</span><span class="o">,</span> <span class="n">bs</span><span class="o">))</span>
+<span class="o">}</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[4]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>defined <span class="ansi-green-fg">function</span> <span class="ansi-cyan-fg">append</span></pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-scala"><pre><span></span><span class="k">val</span> <span class="n">B</span> <span class="k">=</span> <span class="n">addOne</span><span class="o">(</span><span class="n">A</span><span class="o">)</span>
+<span class="k">val</span> <span class="n">C</span> <span class="k">=</span> <span class="n">append</span><span class="o">(</span><span class="n">A</span><span class="o">,</span><span class="n">B</span><span class="o">)</span>
+<span class="n">println</span><span class="o">(</span><span class="n">C</span><span class="o">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Cons(1,Cons(2,Cons(3,Cons(4,Cons(5,Cons(2,Cons(3,Cons(4,Cons(5,Cons(6,Nil))))))))))
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[5]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre><span class="ansi-cyan-fg">B</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = Cons(2,Cons(3,Cons(4,Cons(5,Cons(6,Nil)))))
+<span class="ansi-cyan-fg">C</span>: <span class="ansi-green-fg">List</span>[<span class="ansi-green-fg">Int</span>] = Cons(1,Cons(2,Cons(3,Cons(4,Cons(5,Cons(2,Cons(3,Cons(4,Cons(5,Cons(6,Nil))))))))))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></div></section></section>
 </div>
 </div>
 
